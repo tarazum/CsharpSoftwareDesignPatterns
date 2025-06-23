@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PatternLibrary.csproj" />
+    <!-- Corrected relative path to the library project -->
+    <ProjectReference Include="..\PatternLibrary\PatternLibrary.csproj" />
   </ItemGroup>
 </Project>
